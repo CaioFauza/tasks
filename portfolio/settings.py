@@ -79,8 +79,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'tasks',
         'USER': 'cloud',
-        'PASSWORD': 'cloud',
-        'HOST': 'node1',
+        'PASSWORD': 'cloud12345',
+        'HOST': '-',
         'PORT': '5432',
     }
 }
@@ -108,7 +108,6 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
